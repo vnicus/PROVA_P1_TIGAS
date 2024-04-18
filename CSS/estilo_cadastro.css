@@ -1,0 +1,141 @@
+fieldset {
+    padding: 1%;
+    border-radius:10px;
+    background:rgb(116, 137, 255);
+    border: 1px solid rgb(0, 102, 255);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.123);
+    margin-top:2%;
+}
+
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: darkblue;
+}
+
+legend {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight:bold;
+    background:brown;
+    color: white;
+    padding: 1%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+header{
+    text-align: center;
+    color: white;
+    background-color:brown;
+    text-transform: uppercase;
+    padding: .5%;
+}
+
+main{
+    margin: 1%;
+}
+
+main h2{
+    color: rgb(29, 29, 29);
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color:brown;
+    padding: 1%;
+}
+
+.paginas{
+    margin-top: 1%;
+    padding: 1%;
+}
+
+#corpo{
+    background-color:rgb(255, 255, 255);
+    border:1px solid black;
+    border-radius: 20px;
+    margin:2%;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.37);
+}
+
+label, input, select{
+    display: block; /*deixou mais organizado*/
+    box-sizing: border-box;    
+}
+
+label{
+    padding: 5px;
+}
+
+input, select{
+    width: 100%;
+    border: 1px outset;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input:focus{
+    background: lightyellow;
+    border: 1px solid yellow;
+    outline:none; 
+    border-radius: 0px;
+}
+
+input:hover {
+    background: lightyellow;
+    border: 1px solid yellow;
+    border-radius: 0px;
+    outline:none;
+    transition: 0.2s;
+
+}
+
+.label-50{
+    width: 50%; float:left;
+}
+
+.center{
+    text-align: center; padding: 2%;
+}
+
+button{
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    background: #eee;
+    border: 1px solid #667;
+    border-radius: 10px;
+}
+
+p{
+    text-align: center;
+}
+
+button:hover { background-color: orange; transform: scale(1.02); transition: 0.2s; color: black; }
+button:active { background-color:  #667;}
+
+.botao-enviar { background-color: brown; color: white;}
+
+
+.paginas a{
+    background-color: burlywood;
+    padding: 0.5% 2%;
+    border-radius: 10px;
+    color: black;
+    
+}
+
+.paginas a:hover{
+    background-color: rgb(255, 145, 0);
+    padding: 0.5% 2%;
+    border-radius: 10px;
+    color: white;
+    transition: 0.2s;
+    transform: scale(1.02);
+}

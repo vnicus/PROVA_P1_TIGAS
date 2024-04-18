@@ -1,0 +1,87 @@
+#sobre-nos {
+    margin-top: 2%;
+}
+
+#sobre-nos aside video {
+    max-width: 100%;
+}
+
+#sobre-nos aside, #sobre-nos article {
+    background: #fff;
+    width: 100;
+    float:bottom;
+    margin: 1%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, .1);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#sobre-nos article {
+    width: 100%;
+    text-align: center;
+    padding: 1%;
+}
+
+#sobre-nos article p {
+    margin-bottom: 5%;
+    line-height: 25px;
+}
+
+article h3 {
+    text-transform: uppercase;
+}
+
+#fotos {
+    overflow: hidden;
+    clear: both;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, .1);
+}
+
+figure {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    float: left;
+    padding: 5px;
+    max-width: 30%;
+    margin: 1%;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+figcaption {
+    background-color: #222;
+    border-radius: 10px;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+}
+
+.paginas a{
+    background-color: burlywood;
+    padding: 0.5% 2%;
+    border-radius: 10px;
+    color: black;
+    
+}
+
+.paginas a:hover{
+    background-color: rgb(255, 145, 0);
+    padding: 0.5% 2%;
+    border-radius: 10px;
+    color: white;
+    transition: 0.2s;
+    transform: scale(1.02);
+}
+
+footer div {
+    margin-top: 1%;
+}
